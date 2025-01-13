@@ -4,21 +4,47 @@
 
     <head>
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <h1>
+        <h1 class="big align">
             Odin Recipes
         </h1>
 
-<!-- Use the directory "recipes" in the link here because
- tomato-egg.html is in a different (child) directory from index.html -->
+        <div class="align" id="prompt">What will you cook today?</div>
 
-    <ul>
-        <li><a href="recipes/tomato-egg.html">Tomato Egg</a></li>
-        <li><a href="recipes/steamed-egg.html">Steamed Egg</a></li>
-        <li><a href="recipes/garlic-bread.html">Garlic Bread</a></li>
-    </ul>          
+        <p>
+            <img class="align" id="image" alt="neopets cooking faerie" src="https://bookofages.jellyneo.net/assets/imgs/characters/lg/55.png">
+        </p>
+
+        <p class="click" id="click-size">Click the names to go to their recipes!</p>
+
+            <ul>
+                <li class="tomato-egg">
+                    <a href="recipes/tomato-egg.html">Tomato Egg</a>
+
+                    <!-- Use the directory "recipes" in the link here because tomato-egg.html 
+                    is in a different (child) directory from index.html -->
+
+                    <p>
+                        <img src="https://thewoksoflife.com/wp-content/uploads/2019/05/tomato-egg-11.jpg" alt="picture of stir-fried tomato 
+                        and egg dish" width="150">
+                    </p>
+                </li>
+                <li class="steamed-egg">
+                    <a href="recipes/steamed-egg.html">Steamed Egg</a>
+                    <p>
+                        <img src="https://www.madewithlau.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2r0kdewr%2Fproduction%2F3f658be59e89e201dbc91c99560e0e45c3f9b16f-1000x563.jpg&w=3840&q=75" alt="steamed egg with chives in a bowl with a wooden spoon resting on top" width="150">
+                    </p>
+                </li>
+                <li class="garlic-bread">
+                    <a href="recipes/garlic-bread.html">Garlic Bread</a>
+                    <p>
+                        <img src="https://www.ambitiouskitchen.com/wp-content/uploads/2023/02/Garlic-Bread-4-1064x1064.jpg" alt="garlic bread" width="150">
+                    </p>
+                </li>
+            </ul>          
     </body>
 
 </html>
